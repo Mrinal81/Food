@@ -1,0 +1,131 @@
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    height: 60px;
+    /* margin: 10px; */
+}
+.links-container{
+    display: flex;
+}
+.links-container ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 20px;
+}
+.links-container ul li{
+    padding: 0px 10px;
+}
+.img-container img{
+    width: 100px;
+    height: 55px;
+    padding: 20px;
+}
+.res-card{
+    width: 200px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px 10px;
+	transition: transform 0.2s;
+}
+
+.res-card:hover{
+    transform: scale(1.1);
+}
+.res-card .food-img{
+    width: 100%;
+    height: 150px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-btn{
+    margin: 15px 15px 15px 40px;
+    padding: 15px;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 1s;
+    box-shadow: 5px 5px 10px darkgray;
+    cursor: pointer;
+}
+
+.filter-btn:hover{
+    background-color: gray;
+    color: black;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 220px;
+    height: 350px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 5px 5px 10px #f0f0f0;
+    border-radius: 25px;
+}
+
+.login-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 5px;
+    margin: 0 20px 0 10px;
+    border: none;
+    width: 90px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 8px 8px 10px lightgray;
+}
+
+.search-cont{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.search{
+    width: 30%;
+    display: flex;
+}
+.searchBox{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 5px 5px 20px;
+    text-align:start;
+    box-shadow: 8px 8px 10px darkgray;
+    word-spacing: 5px;
+    font-size: medium;
+    font-weight:600;
+}
+
+.input-search{
+    border-radius: 15px;
+    width: 100px;
+    background-color:red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: medium;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 8px 8px 10px darkgray;
+}
+.search input{
+    outline: none;
+}
